@@ -21,11 +21,11 @@ I only made the first chapter where one could learn how to create Basic Neural N
 
 ## Error / Cost Function
 
-The error describes, if a neural network predicted something right. So if a orange is a "1" and an apple is a "0". We can say the following:
+The error indicates whether or not a neural network predicted something correctly. So if an orange is a "1" and an apple is a "0". We can say the following:
 
 If we have an apple (0) and the NN predicts 0, the error is 0. But if the NN predicts 1, the error is 1.
 
-If we have an organe (1) and the NN predicts 0, the error is 1. If the NN predicts 1, the error is 0.
+If we have an orange (1) and the NN predicts 0, the error is 1. If the NN predicts 1, the error is 0.
 
 We calculate that like this:
 
@@ -38,7 +38,7 @@ E = F(x) - Y
 
 ### Minimizing
 
-If we have other values for errors, say 100 for a full error. We can get e.g. a 50 error. By shifting our parameters, we can see if the error gets smaller or bigger. So if we had 50 before, and now we have 45, we are on the right track.
+We might have other values for errors, say 100 is a full error. Perhaps we can get e.g. a 50 (partial) error.  Then we can alter our parameters to see if the error gets smaller or bigger. So if we had an error of 50 before, bbut now we have 45, we are on the right track to minimizing our error.
 
 **Cost/Loss are other words for 'Error'**
 

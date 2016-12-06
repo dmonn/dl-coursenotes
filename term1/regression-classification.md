@@ -33,13 +33,14 @@ Finding a function to find a relationship between a X and Y label.
 `f(x) = c`
 
 Error/Loss function:
-$$\sum_{i=1}^n (y_i-c)^2$$
+![Loss Function](http://www.sciweavers.org/tex2img.php?eq=%24%24%5Csum_%7Bi%3D1%7D%5En%20%28y_i-c%29%5E2%24%24&bc=White&fc=Black&im=jpg&fs=12&ff=arev&edit=0)
+
 
 (The sum over all data points of the square difference between the constant and what the value is)
 
-$$0 = -\sum_{i=1}^n 2*(y_i-c)$$
+![Loss Function 2](http://www.sciweavers.org/tex2img.php?eq=%24%240%20%3D%20-%5Csum_%7Bi%3D1%7D%5En%202%2A%28y_i-c%29%24%24&bc=White&fc=Black&im=jpg&fs=12&ff=arev&edit=0)
 
-$$n*c = \sum_{i=1}^n y_i$$
+![Loss Function 3](http://www.sciweavers.org/tex2img.php?eq=%24%24n%2Ac%20%3D%20%5Csum_%7Bi%3D1%7D%5En%20y_i%24%24&bc=White&fc=Black&im=jpg&fs=12&ff=arev&edit=0)
 
 **Best constant is mean/average of Y**
 

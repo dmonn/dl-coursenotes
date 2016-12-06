@@ -43,4 +43,10 @@ $$n*c = \sum_{i=1}^n y_i$$
 
 **Best constant is mean/average of Y**
 
-#### Order of Polynomial
+## Error
+
+Error can come from different sources. E.g from wrong sensor data, malicious data (bad data given) or by a transcription error.
+To cross out any error, we use cross validation.
+We can use a test set to "double-check" our predictions. Plus, we can cross validate (taking some parts of the test and the training set) to check even further.
+
+**The goal is always to generalize**

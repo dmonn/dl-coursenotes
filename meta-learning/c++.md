@@ -123,3 +123,27 @@ std::cout << "pointerToA stores " << pointerToA << '\n';
 // If we want to know what is stored in this address, we can dereference pointerToA:
 std::cout << "pointerToA points to " << * pointerToA << '\n';
 ```
+
+## Arrays
+
+Arrays can be declared as follows:
+
+```
+variableType arrayName [ ] = {variables to be stored in the array};
+
+variableType arrayName[array size]
+
+/* Access */
+variableType arrayName[ index number ]
+```
+
+### Multidimensional
+
+Multidimensional Arrays are declared as follows:
+
+```
+typeOfVariable arrayName[size of dim.1][size of dim. 2] ...[size of dim. n];
+
+/* e.g. */
+int array2Dimensions[2][3];
+```

@@ -147,3 +147,47 @@ typeOfVariable arrayName[size of dim.1][size of dim. 2] ...[size of dim. n];
 /* e.g. */
 int array2Dimensions[2][3];
 ```
+
+## Functions
+
+Syntax 
+
+```
+retVariableType  functionName(parameter1, parameter2, ...,parameterN)
+{
+     statement(s);
+}
+```
+
+Declaration
+
+```
+void printProduct(int m1, int m2, int product);
+```
+
+You can pass vars via Pointers:
+```
+int main()
+{
+    int a = 34;
+    std::cout<<"Before the function call a = "<<a<<"\n";
+    increment(a);
+    std::cout<<"After the function call a = "<<a<<"\n";
+    return 0;
+}
+void increment(int &input)//Note the addition of '&'
+{
+    input++; //**Note the LACK OF THE addition of '&'**
+    std::cout<<"In the function call a = "<<input<<"\n";
+}
+```
+
+### Passing Arrays
+
+Arrays can be passed as follows:
+
+```
+void functionName(variableType *arrayName)
+void functionName(variableType arrayName[length of array])
+void functionName(variableType arrayName[])
+```

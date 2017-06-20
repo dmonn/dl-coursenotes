@@ -191,3 +191,101 @@ void functionName(variableType *arrayName)
 void functionName(variableType arrayName[length of array])
 void functionName(variableType arrayName[])
 ```
+
+## Classes
+
+Basic Syntax
+```
+class Student
+{
+        string name;
+        int id;
+        int gradDate;
+};
+```
+
+Public Functions
+
+class Student
+{
+        string name;
+        int id;
+        int gradDate;
+
+    public:
+        void setName(string name);
+
+};
+
+Full Definition
+
+```
+class Student
+{
+        string name;
+        int id;
+        int gradDate;
+
+    public:
+        void setName(string nameIn);
+        void setId(int idIn);
+        void setgradDate(int dateIn);
+};
+
+Student::setName(string nameIn)
+{
+     name = nameIn;
+}
+
+Student::setID(int idIn)
+{
+     id = idIn;
+}
+
+Student::setGradeDate(int gradDateIn)
+{
+     gradDate = gradDateIn;
+}
+```
+
+Using Classes
+
+```
+#include"main.hpp"
+
+int main()
+{
+    Dog dog1, dog2;
+    dog1.setName("Trixie");
+    dog2.setName("Kali");
+    dog1.setLicenseNumber(1234);
+    dog2.setLicenseNumber(5678);
+
+    dog1.printInfo();
+    cout<<"\n";
+    dog2.printInfo();
+    return 0;
+}
+```
+
+### Memory Management
+
+Constructor
+
+```
+ClassName::ClassName()
+{
+     dataMemberName1 = value;
+     dataMemberName2 = value;
+     ...
+}
+```
+
+Destructor
+
+```
+classname::~classname()
+{
+     //tasks to be completed before going out of scope
+}
+```

@@ -1,5 +1,15 @@
 # CUDA / GPU Programming
 
+## Patterns
+
+Map: Perform an action on a set of things (e.g. squaring an array of numbers) 1 per 1
+Gather: Perform an action on a range of values (e.g. averaging 3 numbers into 1)
+Scatter: Writing something in multiple memory locations (Problem: Parallelism
+Stencil: Read input from a neighbourhood in an array
+Transpose: Restructure an array / reorder (e.g. sorting or vertical-horizontal)
+
+## Code
+
 Be sure to compile this boilerplate code using `nvcc -o <filename>`
 
 ```

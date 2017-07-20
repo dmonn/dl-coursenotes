@@ -1,5 +1,7 @@
 # CUDA / GPU Programming
 
+A *thread* performs many *kernels* (C++ function)
+
 ## Patterns
 
 * Map: Perform an action on a set of things (e.g. squaring an array of numbers) 1 per 1

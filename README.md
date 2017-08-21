@@ -1,2 +1,6 @@
-# Self-Driving Car Engineer Nanodegree
-Some course notes for Udacity's Self-Driving Car Engineer Nanodegree
+# Personal Knowledge Library
+
+- SDCND
+- DLFND
+- Deep Learning A-Z
+and more
